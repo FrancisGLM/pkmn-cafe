@@ -1,0 +1,78 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 2.5rem;
+    background-color: #8B5E3C;
+    box-shadow: 0 3px 10px rgba(59, 30, 10, 0.3);
+    width: 100%;
+    border-bottom: 3px solid #6b3f22;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logoImg {
+    width: 80px;
+    height: 80px;
+}
+
+.logoText {
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: #fdf3e3;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.navLinks {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.link {
+    color: #fdf3e3;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: color 0.2s ease;
+}
+
+.link:hover {
+    color: #f5c97a;
+}
+
+.btnPrimary {
+    background-color: #4a9fd4;
+    color: white;
+    padding: 0.45rem 1.2rem;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 0.95rem;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.25s ease, transform 0.15s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.btnPrimary:hover {
+    background-color: #2e85bb;
+    transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0.6rem 1rem;
+    }
+
+    .link {
+        display: none;
+    }
+
+    .logoText {
+        font-size: 1.1rem;
+    }
+}
