@@ -1,5 +1,5 @@
 import styles from './Hero.module.css'
-import heroCafe from '../../assets/images/logoeevee.png'  // REEMPLAZAR LUEGO CON ALGUNA IMAGEN QUE TENGA POR AHI DE CAFE 
+import heroCafe from '../../assets/images/presentacion.png'  // REEMPLAZAR LUEGO CON ALGUNA IMAGEN QUE TENGA POR AHI DE CAFE 
 
 function Hero() {
   return (
