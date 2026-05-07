@@ -1,8 +1,12 @@
+import ash from "../assets/images/ash.png";
+import misty from "../assets/images/misty.png";
+import brock from "../assets/images/brock.png";
+
 export const reseñas = [
   {
     id: 1,
     nombre: "Ash Ketchum",
-    foto: "https://api.dicebear.com/7.x/thumbs/svg?seed=ash&backgroundColor=fdf3e3",
+    foto: ash,
     texto:
       "¡El Espeon Espresso es increíble! Nunca pensé que un café pudiera hacerme sentir tan mágico. ¡Totalmente recomendado!",
     estrellas: 5,
@@ -10,7 +14,7 @@ export const reseñas = [
   {
     id: 2,
     nombre: "Misty Waterflower",
-    foto: "https://api.dicebear.com/7.x/thumbs/svg?seed=misty&backgroundColor=fdf3e3",
+    foto: misty,
     texto:
       "Los Sylveon Shakes son lo más dulce que he probado. El ambiente es adorable y el servicio es de primera.",
     estrellas: 5,
@@ -18,11 +22,49 @@ export const reseñas = [
   {
     id: 3,
     nombre: "Brock Harrison",
-    foto: "https://api.dicebear.com/7.x/thumbs/svg?seed=brock&backgroundColor=fdf3e3",
+    foto: brock,
     texto:
       "Las Flareon Cookies recién horneadas son simplemente perfectas. Las mejores galletas que he probado.",
     estrellas: 4,
   },
 ];
 
-// Reemplazar fotos generadas por dicebear por fotos de los personajes
+export const productosSlider = [
+  {
+    id: 1,
+    nombre: "Espeon Espresso",
+    descripcion: "Intenso y místico, con notas de lavanda y miel.",
+    emoji: "☕",
+    color: "#d4a8d4",
+  },
+  {
+    id: 2,
+    nombre: "Vaporeon Blue Latte",
+    descripcion:
+      "Suave y refrescante, con mariposa de guisante y leche de coco.",
+    emoji: "🩵",
+    color: "#a8c8e8",
+  },
+  {
+    id: 3,
+    nombre: "Flareon Spiced Cookie",
+    descripcion:
+      "Crujiente por fuera, tierna por dentro, con canela y jengibre.",
+    emoji: "🍪",
+    color: "#e8a878",
+  },
+  {
+    id: 4,
+    nombre: "Sylveon Strawberry Shake",
+    descripcion: "Dulce y cremoso, batido de frutilla con crema y perlas.",
+    emoji: "🍓",
+    color: "#f0b8c8",
+  },
+  {
+    id: 5,
+    nombre: "Jolteon Matcha Fizz",
+    descripcion: "Energético y refrescante, matcha con agua con gas y limón.",
+    emoji: "⚡",
+    color: "#c8d878",
+  },
+];
