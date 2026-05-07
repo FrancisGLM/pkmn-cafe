@@ -1,6 +1,7 @@
 import Navbar from '../components/Navbar/Navbar'
 import Hero from '../components/Hero/Hero'
 import Propuesta from '../components/Propuesta/Propuesta'
+import SeccionReseñas from '../components/Cards/SeccionReseñas'
 import pasteleriaImg from '../assets/images/eeveecafes.png'
 
 function Home() {
@@ -15,6 +16,7 @@ function Home() {
           imagen={pasteleriaImg}
           estrellas={3}
         />
+        <SeccionReseñas />
       </main>
     </>
   )

@@ -1,0 +1,56 @@
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e0d0bb;
+    border-radius: 14px;
+    padding: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    box-shadow: 0 4px 14px rgba(59, 30, 10, 0.1);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    flex: 1;
+    min-width: 220px;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 22px rgba(59, 30, 10, 0.18);
+}
+
+.cardHeader {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.avatar {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 2px solid #8B5E3C;
+    object-fit: cover;
+    background-color: #fdf3e3;
+}
+
+.nombre {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #3b1e0a;
+}
+
+.texto {
+    font-size: 0.95rem;
+    color: #5c3317;
+    line-height: 1.6;
+    flex: 1;
+}
+
+.estrellas {
+    display: flex;
+    gap: 0.2rem;
+}
+
+.estrella {
+    font-size: 1.2rem;
+    color: #f5c97a;
+}

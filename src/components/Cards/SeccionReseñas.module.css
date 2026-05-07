@@ -1,0 +1,39 @@
+.seccion {
+    background-color: #fdf3e3;
+    padding: 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.titulo {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #3b1e0a;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .seccion {
+        padding: 2rem 1rem;
+    }
+
+    .grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grid>* {
+        width: 100%;
+        max-width: 420px;
+    }
+}
