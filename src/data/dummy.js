@@ -1,6 +1,15 @@
 import ash from "../assets/images/ash.png";
 import misty from "../assets/images/misty.png";
 import brock from "../assets/images/brock.png";
+import eeveeImg from "../assets/images/eevee.png";
+import vaporeonImg from "../assets/images/vaporeon.png";
+import jolteonImg from "../assets/images/jolteon.png";
+import flareonImg from "../assets/images/flareon.png";
+import espeonImg from "../assets/images/espeon.png";
+import umbreonImg from "../assets/images/umbreon.png";
+import leafeonImg from "../assets/images/leafeon.png";
+import glaceonImg from "../assets/images/glaceon.png";
+import sylveonImg from "../assets/images/sylveon.png";
 
 export const reseñas = [
   {
@@ -32,39 +41,66 @@ export const reseñas = [
 export const productosSlider = [
   {
     id: 1,
-    nombre: "Espeon Espresso",
-    descripcion: "Intenso y místico, con notas de lavanda y miel.",
-    emoji: "☕",
-    color: "#d4a8d4",
+    nombre: "Eevee Mocha",
+    descripcion: "Mocha helado con wafer de Eevee.",
+    imagen: eeveeImg,
+    color: "#e8d5b0",
   },
   {
     id: 2,
-    nombre: "Vaporeon Blue Latte",
+    nombre: "Vaporeon Blue Shake",
     descripcion:
-      "Suave y refrescante, con mariposa de guisante y leche de coco.",
-    emoji: "🩵",
-    color: "#a8c8e8",
+      "Batido azul claro de arándanos y crema con cola de pez y burbujas.",
+    imagen: vaporeonImg,
+    color: "#c2dff0",
   },
   {
     id: 3,
-    nombre: "Flareon Spiced Cookie",
-    descripcion:
-      "Crujiente por fuera, tierna por dentro, con canela y jengibre.",
-    emoji: "🍪",
-    color: "#e8a878",
+    nombre: "Jolteon Mango Fizz",
+    descripcion: "Batido amarillo de mango con púas de chocolate y rayo.",
+    imagen: jolteonImg,
+    color: "#f5eaa0",
   },
   {
     id: 4,
-    nombre: "Sylveon Strawberry Shake",
-    descripcion: "Dulce y cremoso, batido de frutilla con crema y perlas.",
-    emoji: "🍓",
-    color: "#f0b8c8",
+    nombre: "Flareon Spiced Mocha",
+    descripcion: "Mocha picante naranja con llamas de azúcar y brasa.",
+    imagen: flareonImg,
+    color: "#f5c498",
   },
   {
     id: 5,
-    nombre: "Jolteon Matcha Fizz",
-    descripcion: "Energético y refrescante, matcha con agua con gas y limón.",
-    emoji: "⚡",
-    color: "#c8d878",
+    nombre: "Espeon Taro Latte",
+    descripcion: "Té de leche de taro lavanda con rubí y perla.",
+    imagen: espeonImg,
+    color: "#d8c0e8",
+  },
+  {
+    id: 6,
+    nombre: "Umbreon Dark Choco",
+    descripcion: "Bebida de chocolate negro con anillos dorados y luna.",
+    imagen: umbreonImg,
+    color: "#c8c0d8",
+  },
+  {
+    id: 7,
+    nombre: "Leafeon Matcha Shake",
+    descripcion: "Batido de matcha verde con hojas y ramita.",
+    imagen: leafeonImg,
+    color: "#c8e0b0",
+  },
+  {
+    id: 8,
+    nombre: "Glaceon Vanilla Ice",
+    descripcion: "Bebida de vainilla azul hielo con cristales de nieve.",
+    imagen: glaceonImg,
+    color: "#b8d8f0",
+  },
+  {
+    id: 9,
+    nombre: "Sylveon Berry Shake",
+    descripcion: "Batido de fresa rosa con lazos y corazones.",
+    imagen: sylveonImg,
+    color: "#f5c0d0",
   },
 ];

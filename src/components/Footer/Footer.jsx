@@ -52,7 +52,7 @@ function Footer() {
         </Link>
       </div>
       <div className={styles.footerBottom}>
-        <p>Talca, 2025</p>
+        <p>Talca, 2026</p>
       </div>
     </footer>
   )

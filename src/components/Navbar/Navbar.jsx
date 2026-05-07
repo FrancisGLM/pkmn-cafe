@@ -15,8 +15,7 @@ function Navbar() {
         <span className={styles.logoText}>Eevee Café</span>
       </div>
       <div className={styles.navLinks}>
-        <Link to="/" className={styles.link}>Menú</Link>
-        <Link to="/" className={styles.btnPrimary}>Comience Ahora</Link>
+        <Link to="/" className={styles.btnPrimary}>Menú</Link>
       </div>
     </nav>
   )
