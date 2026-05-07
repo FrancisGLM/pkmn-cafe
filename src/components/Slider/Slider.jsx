@@ -47,9 +47,14 @@ function Slider() {
                   className={styles.slideImg}
                 />
                 <div className={styles.slideInfo}>
-                  <span className={styles.slideBadge}>Bebida especial</span>
-                  <h3 className={styles.slideNombre}>{producto.nombre}</h3>
-                  <p className={styles.slideDesc}>{producto.descripcion}</p>
+                    <span className={styles.slideBadge}>Bebida especial</span>
+                    <h3 className={styles.slideNombre}>{producto.nombre}</h3>
+                    <p className={styles.slideDesc}>{producto.descripcion}</p>
+                    <div className={styles.tags}>
+                        {producto.tags.map((tag) => (
+                            <span key={tag} className={styles.tag}>{tag}</span>
+                        ))}
+                    </div>
                 </div>
               </div>
             ))}

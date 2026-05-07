@@ -13,13 +13,13 @@ function Home() {
       <main>
         <Hero />
         <Propuesta
-          titulo="Nuestras creaciones especiales. Pastelería temática de Eevee recién horneada y un menú que deleita."
-          descripcion="Cada artículo de nuestro menú está hecho con amor e inspirado en tus Eeveevoluciones favoritas. Desde los lattes azules de Vaporeon hasta las galletas especiadas de Flareon, hay algo mágico para cada entrenador."
+          titulo="Creaciones únicas inspiradas en cada Eeveelución."
+          descripcion="Cada bebida y bocado de nuestro menú nació de la magia de las Eeveevoluciones. Sabores cuidadosamente diseñados para que cada visita sea una experiencia distinta. Porque elegir es la mejor parte."
           imagen={galletasImg}
           estrellas={3}
         />
         <SeccionReseñas />
-        <Slider />
+        <Slider />  
       </main>
       <Footer />
     </>

@@ -17,7 +17,7 @@ export const reseñas = [
     nombre: "Ash Ketchum",
     foto: ash,
     texto:
-      "¡El Espeon Espresso es increíble! Nunca pensé que un café pudiera hacerme sentir tan mágico. ¡Totalmente recomendado!",
+      "¡El Espeon Taro Latte es increíble! De verdad, que delicia. Los sabores son perfectos y la presentación es única. ¡Totalmente recomendado!",
     estrellas: 5,
   },
   {
@@ -25,7 +25,7 @@ export const reseñas = [
     nombre: "Misty Waterflower",
     foto: misty,
     texto:
-      "Los Sylveon Shakes son lo más dulce que he probado. El ambiente es adorable y el servicio es de primera.",
+      "Los Vaporeon Blue Shake son lo más dulce que he probado. El ambiente es adorable con los peluches y como esta tematizado todo, ademas el servicio es de primera.",
     estrellas: 5,
   },
   {
@@ -33,7 +33,7 @@ export const reseñas = [
     nombre: "Brock Harrison",
     foto: brock,
     texto:
-      "Las Flareon Cookies recién horneadas son simplemente perfectas. Las mejores galletas que he probado.",
+      "Las Flareon Spiced Mocha son simplemente perfectas. El mejor mocha que he probado, lo recomiendo en especial con las galletas o alguno de los pastelitos de Eevee.",
     estrellas: 4,
   },
 ];
@@ -45,6 +45,7 @@ export const productosSlider = [
     descripcion: "Mocha helado con wafer de Eevee.",
     imagen: eeveeImg,
     color: "#e8d5b0",
+    tags: ["☕ Caliente", "🍫 Dulce"],
   },
   {
     id: 2,
@@ -53,6 +54,7 @@ export const productosSlider = [
       "Batido azul claro de arándanos y crema con cola de pez y burbujas.",
     imagen: vaporeonImg,
     color: "#c2dff0",
+    tags: ["🧊 Frío", "🫐 Dulce"],
   },
   {
     id: 3,
@@ -60,6 +62,7 @@ export const productosSlider = [
     descripcion: "Batido amarillo de mango con púas de chocolate y rayo.",
     imagen: jolteonImg,
     color: "#f5eaa0",
+    tags: ["🧊 Frío", "🍋 Ácido", "⚡ Energético"],
   },
   {
     id: 4,
@@ -67,6 +70,7 @@ export const productosSlider = [
     descripcion: "Mocha picante naranja con llamas de azúcar y brasa.",
     imagen: flareonImg,
     color: "#f5c498",
+    tags: ["☕ Caliente", "🌶️ Picante", "🍫 Dulce"],
   },
   {
     id: 5,
@@ -74,6 +78,7 @@ export const productosSlider = [
     descripcion: "Té de leche de taro lavanda con rubí y perla.",
     imagen: espeonImg,
     color: "#d8c0e8",
+    tags: ["☕ Caliente", "🌸 Floral", "🍬 Muy dulce"],
   },
   {
     id: 6,
@@ -81,6 +86,7 @@ export const productosSlider = [
     descripcion: "Bebida de chocolate negro con anillos dorados y luna.",
     imagen: umbreonImg,
     color: "#c8c0d8",
+    tags: ["☕ Caliente", "🍫 Intenso", "🖤 Amargo"],
   },
   {
     id: 7,
@@ -88,6 +94,7 @@ export const productosSlider = [
     descripcion: "Batido de matcha verde con hojas y ramita.",
     imagen: leafeonImg,
     color: "#c8e0b0",
+    tags: ["🧊 Frío", "🍵 Matcha", "🌿 Natural"],
   },
   {
     id: 8,
@@ -95,6 +102,7 @@ export const productosSlider = [
     descripcion: "Bebida de vainilla azul hielo con cristales de nieve.",
     imagen: glaceonImg,
     color: "#b8d8f0",
+    tags: ["🧊 Muy frío", "🍦 Dulce", "❄️ Refrescante"],
   },
   {
     id: 9,
@@ -102,5 +110,6 @@ export const productosSlider = [
     descripcion: "Batido de fresa rosa con lazos y corazones.",
     imagen: sylveonImg,
     color: "#f5c0d0",
+    tags: ["🧊 Frío", "🍓 Muy dulce", "💕 Favorito"],
   },
 ];

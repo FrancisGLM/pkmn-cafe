@@ -1,58 +1,139 @@
 .card {
+    background-color: #fffdf8;
+    border-radius: 24px;
+    padding: 2.5rem 2rem;
+    max-width: 420px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    background-color: #fdf3e3;
-    min-height: calc(100vh - 140px);
-    padding: 3rem 1.5rem;
-    text-align: center;
+    gap: 0.75rem;
+    box-shadow:
+        0 4px 6px rgba(59, 30, 10, 0.06),
+        0 12px 28px rgba(59, 30, 10, 0.12);
+    border: 1px solid rgba(59, 30, 10, 0.08);
 }
 
-.avatar {
+.avatarWrapper {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    border: 4px solid #8B5E3C;
-    box-shadow: 0 6px 18px rgba(59, 30, 10, 0.2);
+    padding: 4px;
+    background: linear-gradient(135deg, #8B5E3C, #c9956a);
+    box-shadow: 0 4px 16px rgba(139, 94, 60, 0.35);
+    margin-bottom: 0.5rem;
+    flex-shrink: 0;
+}
+
+.avatar {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
     object-fit: cover;
-    background-color: #f5e6c8;
+    border: 3px solid #fffdf8;
+    display: block;
 }
 
 .nombre {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 900;
     color: #3b1e0a;
+    text-align: center;
+    margin: 0;
 }
 
 .carrera {
-    font-size: 1.05rem;
-    color: #5c3317;
-    font-weight: 600;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #8B5E3C;
+    text-align: center;
+    margin: 0;
 }
 
 .ciudad {
-    font-size: 0.95rem;
-    color: #7a5230;
+    font-size: 0.88rem;
+    color: #7a6652;
+    text-align: center;
+    margin: 0;
 }
 
-.githubBtn {
+.divider {
+    width: 48px;
+    border: none;
+    border-top: 2px solid #c9956a;
+    margin: 0.25rem 0;
+    align-self: center;
+}
+
+.descripcion {
+    font-size: 0.92rem;
+    color: #4a3520;
+    text-align: center;
+    line-height: 1.65;
+    max-width: 32ch;
+    margin: 0;
+}
+
+.techTitulo {
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: #7a6652;
+    margin: 0;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin: 0;
+}
+
+.tag {
+    background-color: #fdf0e8;
+    color: #8B5E3C;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0.3rem 0.8rem;
+    border-radius: 999px;
+    border: 1px solid rgba(139, 94, 60, 0.25);
+    /* Forzar que no herede estilos globales */
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btnGithub {
     display: flex;
     align-items: center;
-    gap: 0.6rem;
-    background-color: #3b1e0a;
-    color: #fdf3e3;
-    padding: 0.6rem 1.6rem;
-    border-radius: 8px;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: #3b1e0a !important;
+    color: #fdf3e3 !important;
+    font-size: 0.95rem;
     font-weight: 700;
-    font-size: 1rem;
+    padding: 0.75rem 2rem;
+    border-radius: 12px;
+    text-decoration: none !important;
     margin-top: 0.5rem;
-    box-shadow: 0 4px 12px rgba(59, 30, 10, 0.25);
-    transition: background-color 0.25s ease, transform 0.15s ease;
+    width: fit-content;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(59, 30, 10, 0.2);
+    transition: background-color 0.2s ease, transform 0.15s ease;
 }
 
-.githubBtn:hover {
-    background-color: #5c3317;
+.btnGithub:hover {
+    background-color: #5c3317 !important;
     transform: translateY(-2px);
+    color: #fdf3e3 !important;
+}
+
+.btnGithub:active {
+    transform: translateY(0);
+}
+
+.btnGithub svg {
+    flex-shrink: 0;
+    fill: #fdf3e3;
 }
