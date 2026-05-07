@@ -3,6 +3,7 @@ import Hero from '../components/Hero/Hero'
 import Propuesta from '../components/Propuesta/Propuesta'
 import SeccionReseñas from '../components/Cards/SeccionReseñas'
 import pasteleriaImg from '../assets/images/eeveecafes.png'
+import Footer from '../components/Footer/Footer'
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
         />
         <SeccionReseñas />
       </main>
+      <Footer />
     </>
   )
 }
