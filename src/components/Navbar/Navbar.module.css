@@ -21,7 +21,7 @@
 }
 
 .logoText {
-    font-size: 1.3rem;
+    font-size: 2.0rem;
     font-weight: 900;
     color: #fdf3e3;
     letter-spacing: 0.5px;
@@ -73,6 +73,6 @@
     }
 
     .logoText {
-        font-size: 1.1rem;
+        font-size: 1.6rem;
     }
 }

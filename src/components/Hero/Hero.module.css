@@ -17,7 +17,7 @@
 
 .heroImage img {
     width: 100%;
-    max-width: 380px;
+    max-width: 580px;
     height: auto;
     border-radius: 12px;
     object-fit: cover;
@@ -90,6 +90,6 @@
     }
 
     .heroImage img {
-        max-width: 260px;
+        max-width: 450px;
     }
 }
